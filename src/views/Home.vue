@@ -8,13 +8,11 @@
               Hello. My name is Ronald Coppieters. <br />
               I'm a full-stack developer.
             </h1>
-            <v-row justify="center">
-              <v-col cols="6">
-                <v-btn outlined @click="gotoNews"
-                  >View my work
-                  <v-icon class="ml-3">mdi-forward</v-icon>
-                </v-btn>
-              </v-col>
+            <v-row justify="center" class="mt-5">
+              <v-btn outlined @click="gotoNews"
+                >View my work
+                <v-icon class="ml-3">mdi-forward</v-icon>
+              </v-btn>
             </v-row>
           </div>
         </v-row>

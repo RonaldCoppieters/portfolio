@@ -77,8 +77,8 @@
           <v-col cols="12" sm="6">
             <p>
               While inspecting the website we couldn't help but notice that a
-              lot of features were still missing that you'd expect from a chat
-              application, such as setting your chat status to Online, Away,
+              lot of features that you'd expect from a chat application were
+              still missing, such as setting your chat status to Online, Away,
               etc. "I know, I know, but that wasn't the point.", the eager coder
               explained. "The main theme I had in mind was mainly security.
               WhatsApp was my source of inspiration, that's why the thing is
@@ -86,7 +86,7 @@
               Elliptic-Curve Diffie-Hellman protocol to exchange keys between
               users. The chat messages themselves are encrypted using AES256, as
               they should. Files can also be transfered securely. All-in-all I'm
-              quite satisfied with the end result. Looking back my REST
+              quite satisfied with the end result. Looking back, my REST
               controllers could've been more restful and at the frontend side I
               should've used components (or partials) to make my code more
               readable. Other than that it has pretty much everything you'd want
@@ -133,10 +133,16 @@
       </v-col>
       <v-col cols="12" sm="6">
         <p>
-          The site is online for others to demo at the following
-          <a href="https://secu-chatapp.firebaseapp.com/">link</a>. All code can
-          also be reviewed on his
-          <a href="https://github.com/RonaldCoppieters">Github</a> page.
+          The <a href="https://secu-chatapp.firebaseapp.com/">site</a> is online
+          for others to demo. All code for the
+          <a href="https://github.com/RonaldCoppieters/SecureChatApp_Frontend"
+            >frontend</a
+          >
+          and the
+          <a href="https://github.com/RonaldCoppieters/SecureChatApp_Backend"
+            >backend</a
+          >
+          can also be reviewed on his Github page.
         </p>
       </v-col>
     </v-row>
@@ -213,5 +219,15 @@ hr.light {
 }
 hr.thick {
   border-top: 2px solid black !important;
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
 }
 </style>

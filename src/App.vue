@@ -1,32 +1,29 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
+  <v-app>
     <router-view />
-  </div>
+  </v-app>
 </template>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+<script lang="ts">
+import { Component, Vue } from "vue-property-decorator";
+
+@Component({
+  name: "App"
+})
+export default class App extends Vue {}
+</script>
+
+<style lang="scss">
+* {
+  box-sizing: border-box;
+  font-family: "EB Garamond", serif;
 }
 
-#nav {
-  padding: 30px;
+.v-application {
+  background-color: var(--v-background-base) !important;
 }
 
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-#nav a.router-link-exact-active {
-  color: #42b983;
+h1 {
+  font-family: "Playfair Display", serif;
 }
 </style>

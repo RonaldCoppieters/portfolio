@@ -11,14 +11,14 @@ const routes: Array<RouteConfig> = [
     component: Home
   },
   {
-    path: "/work",
-    name: "Work",
-    component: () => import("@/views/Work.vue")
+    path: "/news/1",
+    name: "News1",
+    component: () => import("@/views/news/Page1.vue")
   },
   {
-    path: "/news",
-    name: "News",
-    component: () => import("@/views/News.vue")
+    path: "/news/2",
+    name: "News2",
+    component: () => import("@/views/news/Page2.vue")
   }
 ];
 

@@ -9,10 +9,12 @@
               I'm a full-stack developer.
             </h1>
             <v-row justify="center" class="mt-5">
-              <v-btn outlined @click="gotoNews"
-                >View my work
-                <v-icon class="ml-3">mdi-forward</v-icon>
-              </v-btn>
+              <router-link to="/news/1"
+                ><v-btn outlined
+                  >View my work
+                  <v-icon class="ml-3">mdi-forward</v-icon>
+                </v-btn></router-link
+              >
             </v-row>
           </div>
         </v-row>
@@ -27,16 +29,16 @@ import { Component, Vue } from "vue-property-decorator";
 @Component({
   name: "Home"
 })
-export default class Home extends Vue {
-  gotoNews() {
-    this.$router.push({ name: "News" });
-  }
-}
+export default class Home extends Vue {}
 </script>
 
 <style lang="scss" scoped>
 .full-height {
   height: calc(100vh - 64px);
   overflow: hidden;
+}
+
+a {
+  text-decoration: none;
 }
 </style>

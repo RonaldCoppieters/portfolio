@@ -4,7 +4,7 @@
       <v-col cols="8">
         <v-row align="center" justify="center" class="full-height">
           <div>
-            <h1 class="mx-5 my-0">
+            <h1>
               Hello. My name is Ronald Coppieters. <br />
               I'm a full-stack developer.
             </h1>
@@ -40,5 +40,9 @@ export default class Home extends Vue {}
 
 a {
   text-decoration: none;
+}
+
+h1 {
+  font-size: 2rem;
 }
 </style>

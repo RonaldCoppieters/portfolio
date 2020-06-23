@@ -83,10 +83,10 @@
           <p>
             A student wanted to use the bol.com API for a school project, but
             Bol refused to give him an API key. He decided to take matters into
-            his own hands using Python and the Beautiful Soup plugin..
+            his own hands using Python and the Beautiful Soup plugin.
           </p>
           <h6 class="text-right">
-            Read more about it on page 3
+            Read more about it on <router-link to="/news/3">page 3</router-link>
           </h6>
         </section>
         <section class="pa-3" v-if="false">
@@ -97,7 +97,7 @@
           <p>
             A student wanted to use the bol.com API for a school project, but
             Bol refused to give him an API key. He decided to take matters into
-            his own hands using Python and the Beautiful Soup plugin.
+            his own hands using Python and the Beautiful Soup
           </p>
           <h6 class="text-right">
             Read more about it on
@@ -121,34 +121,3 @@ import NewsBanner from "@/components/NewsBanner.vue";
 })
 export default class News1 extends Vue {}
 </script>
-
-<style scoped>
-h1 {
-  text-align: center;
-  font-weight: 900;
-  font-size: 5rem;
-}
-
-h2 {
-  font-weight: 600;
-  font-size: 3rem;
-}
-
-h6 {
-  font-size: 1.2rem;
-}
-
-section {
-  border: black 1px solid;
-}
-
-@media screen and (max-width: 600px) {
-  h1 {
-    font-size: 3rem;
-  }
-
-  h2 {
-    font-size: 2rem;
-  }
-}
-</style>

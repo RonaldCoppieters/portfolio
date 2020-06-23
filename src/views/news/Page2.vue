@@ -155,31 +155,3 @@ import NewsBanner from "@/components/NewsBanner.vue";
 })
 export default class News2 extends Vue {}
 </script>
-
-<style lang="scss" scoped>
-h2 {
-  font-weight: 600;
-  font-size: 3rem;
-}
-
-h6 {
-  font-size: 1.2rem;
-}
-
-hr.light {
-  border-top: 1px solid black !important;
-}
-hr.thick {
-  border-top: 2px solid black !important;
-}
-
-@media screen and (max-width: 600px) {
-  h1 {
-    font-size: 3rem;
-  }
-
-  h2 {
-    font-size: 2rem;
-  }
-}
-</style>

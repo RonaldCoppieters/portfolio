@@ -81,7 +81,7 @@
               >Github</a
             >, incase any other students are ever put in a similar situation.
           </p>
-          <h6>
+          <h6 class="text-right">
             Return to the <router-link to="/news/1">main page</router-link>
           </h6>
         </div>

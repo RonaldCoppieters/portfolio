@@ -77,7 +77,7 @@
       <v-col cols="12" sm="6">
         <section class="pa-3 mb-3">
           <h3 class="mb-2">
-            Bol.com doesn't let student use their api so he creates a webcrawler
+            Bol.com doesn't let student use their API so he creates a webcrawler
             to steal their data
           </h3>
           <p>

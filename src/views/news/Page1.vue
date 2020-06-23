@@ -89,21 +89,10 @@
             Read more about it on <router-link to="/news/3">page 3</router-link>
           </h6>
         </section>
-        <section class="pa-3" v-if="false">
-          <h3 class="mb-2">
-            Bol.com doesn't let student use their api so he creates a webcrawler
-            to steal their data
-          </h3>
-          <p>
-            A student wanted to use the bol.com API for a school project, but
-            Bol refused to give him an API key. He decided to take matters into
-            his own hands using Python and the Beautiful Soup
-          </p>
-          <h6 class="text-right">
-            Read more about it on
-            <router-link to="/news/2">page 3</router-link>
-          </h6>
-        </section>
+        <v-img
+          class="image"
+          src="https://firebasestorage.googleapis.com/v0/b/ronald-coppieters.appspot.com/o/public%2Fvintage-pc3.jpg?alt=media&token=7da36660-c7c6-4333-9ff3-a6f487911d88"
+        />
       </v-col>
     </v-row>
   </v-container>

@@ -23,9 +23,9 @@
         <p>
           Instead of giving up and setting his sights on another subject of
           study, he decided to code a webcrawler, sometimes also referred to as
-          a spider or spiderbot. "If they're not giving me their data, I'll just
-          take it instead. It's not like there's anything stopping me. It's
-          right there on their website, publicly available.", he boldly stated,
+          a spider or spiderbot. "If they're not giving me their data, then i'll
+          just take it by force. It's not like there's anything stopping me.
+          It's right there on their website, publicly available.", he told us,
           seemingly unconcerned with the legality of his actions. "Web scraping
           isn't illegal, unless you plan to use the information to do something
           unethical, which I wasn't. It's really just a nuisance for websites,
@@ -64,7 +64,11 @@
       </v-col>
       <v-col cols="12" sm="4">
         <div>
-          <p>
+          <h3 class="mb-2">
+            "If they're not giving me their data, then i'll just take it by
+            force."
+          </h3>
+          <p class="mb-2">
             Ronald was more than happy to provide us with some sample
             <a
               href="https://firebasestorage.googleapis.com/v0/b/ronald-coppieters.appspot.com/o/public%2Fbol-book-data.json?alt=media&token=3324b8d2-7b95-4e03-8226-35467cf2984e"

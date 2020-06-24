@@ -40,7 +40,7 @@
             Developer creates own chat application to garantee his privacy
           </h3>
           <p>
-            An ambitious programmer from Sint-Truiden used the following
+            The ambitious programmer from Sint-Truiden used the following
             technologies to built the app:
           </p>
           <ul class="mb-2">
@@ -83,7 +83,17 @@
           <p>
             A student wanted to use the bol.com API for a school project, but
             Bol refused to give him an API key. He decided to take matters into
-            his own hands using Python and the Beautiful Soup plugin.
+            his own hands using Python and the Beautiful Soup plugin. His code
+            is avaible on his
+            <a href="https://github.com/RonaldCoppieters/WebCrawlerDemo"
+              >Github</a
+            >
+            account. We also have a
+            <a
+              href="https://firebasestorage.googleapis.com/v0/b/ronald-coppieters.appspot.com/o/public%2Fbol-book-data.json?alt=media&token=3324b8d2-7b95-4e03-8226-35467cf2984e"
+              >sample</a
+            >
+            of the output.
           </p>
           <h6 class="text-right">
             Read more about it on <router-link to="/news/3">page 3</router-link>
@@ -91,8 +101,39 @@
         </section>
         <v-img
           class="image"
-          src="https://firebasestorage.googleapis.com/v0/b/ronald-coppieters.appspot.com/o/public%2Fvintage-pc3.jpg?alt=media&token=7da36660-c7c6-4333-9ff3-a6f487911d88"
+          src="https://firebasestorage.googleapis.com/v0/b/ronald-coppieters.appspot.com/o/public%2Fvintage-pc3.jpg?alt=media&token=e4c9c925-809e-4eb3-833e-c33540abae52"
         />
+      </v-col>
+    </v-row>
+    <v-row>
+      <v-col cols="12" sm="6">
+        <v-img
+          class="image"
+          src="https://firebasestorage.googleapis.com/v0/b/ronald-coppieters.appspot.com/o/public%2Fvintage-hard-drive2.jpg?alt=media&token=bb38e484-2c5c-4a79-a51e-c92f7cbf3db7"
+        />
+      </v-col>
+      <v-col cols="12" sm="6">
+        <section class="pa-3 mb-3">
+          <h3 class="mb-2">
+            Java developer creates Rest API because he's fed up with hospital's
+            strict, yet poorly managed visitor policy
+          </h3>
+          <p>
+            A hospital situated in Tongeren called Vesalius has implemented a
+            very strict visitor policy after the Covid-19 outbreak, which has
+            inconvenienced a frequent visitor one too many times. Given his
+            experience with the Java programming language, he took it upon
+            himself to help out by building a Rest API using:
+          </p>
+          <ul class="mb-3">
+            <li>API: Spring Boot with Hibernate.</li>
+            <li>Testing: JUnit and Mockito.</li>
+            <li>Database: Docker image running MySQL</li>
+          </ul>
+          <h6 class="text-right">
+            Read more about it on page 4
+          </h6>
+        </section>
       </v-col>
     </v-row>
   </v-container>

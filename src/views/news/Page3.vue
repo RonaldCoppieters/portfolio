@@ -7,7 +7,7 @@
     <v-row>
       <v-col cols="12" sm="6">
         <p>
-          A student at the university-college PXL named Ronald Coppieters had
+          A student at the university college PXL named Ronald Coppieters had
           sent an email to the commercial website bol.com asking if he could use
           their Open API for one of his school projects. As for his reasons, he
           stated: "My aim was to use the data to make all sorts of deductions.
@@ -23,7 +23,7 @@
         <p>
           Instead of giving up and setting his sights on another subject of
           study, he decided to code a webcrawler, sometimes also referred to as
-          a spider or spiderbot. "If they're not giving me their data, then i'll
+          a spider or spiderbot. "If they're not giving me their data, then I'll
           just take it by force. It's not like there's anything stopping me.
           It's right there on their website, publicly available.", he told us,
           seemingly unconcerned with the legality of his actions. "Web scraping
@@ -35,7 +35,7 @@
     </v-row>
     <v-row class="mb-0">
       <v-col cols="12" sm="4">
-        <div class="border-right pr-3">
+        <v-layout class="border-right pr-3" fill-height>
           <p>
             The rebellious student did have to quit midway through given that he
             was pressed for time. "I wanted to finish my school assigment within
@@ -46,10 +46,10 @@
             instead I just pulled a data set from kaggle.com and used that. It
             was a lot of fun to code, so there's that."
           </p>
-        </div>
+        </v-layout>
       </v-col>
       <v-col cols="12" sm="4">
-        <div class="border-right pr-3">
+        <v-layout class="border-right pr-3" fill-height>
           <p>
             When we asked about the tools he used, we were told the following:
             "You don't need a whole lot of tools. All I used was Python and the
@@ -60,12 +60,12 @@
             important to you. Then you just parse the text and encode it into
             whatever format you want, like json."
           </p>
-        </div>
+        </v-layout>
       </v-col>
       <v-col cols="12" sm="4">
         <div>
           <h3 class="mb-2">
-            "If they're not giving me their data, then i'll just take it by
+            "If they're not giving me their data, then I'll just take it by
             force."
           </h3>
           <p class="mb-2">
@@ -75,8 +75,8 @@
               >json data</a
             >
             that he had acquired. We were given the result of 20 pages of data
-            out of 200 pages that were scraped from the book products category.
-            He also promised to make his code open-source on
+            out of the 200 that were scraped from the book products category. He
+            also promised to make his code open-source on
             <a href="https://github.com/RonaldCoppieters/WebCrawlerDemo"
               >Github</a
             >, incase any other students are ever put in a similar situation.

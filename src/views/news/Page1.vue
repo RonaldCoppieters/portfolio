@@ -66,7 +66,7 @@
             <a href="https://github.com/RonaldCoppieters/SecureChatApp_Backend"
               >backend</a
             >
-            is also avaiable on Github.
+            is also available on Github.
           </p>
           <h6 class="text-right">
             Read more about it on
@@ -116,7 +116,7 @@
         <section class="pa-3 mb-3">
           <h3 class="mb-2">
             Java developer creates Rest API because he's fed up with hospital's
-            strict, yet poorly managed visitor policy
+            strict yet poorly managed visitor policy
           </h3>
           <p>
             A hospital situated in Tongeren called Vesalius has implemented a

@@ -96,7 +96,8 @@
             of the output.
           </p>
           <h6 class="text-right">
-            Read more about it on <router-link to="/news/3">page 3</router-link>
+            Read more about it on
+            <router-link to="/news/3">page 3</router-link>
           </h6>
         </section>
         <v-img
@@ -109,11 +110,11 @@
       <v-col cols="12" sm="6">
         <v-img
           class="image"
-          src="https://firebasestorage.googleapis.com/v0/b/ronald-coppieters.appspot.com/o/public%2Fvintage-hard-drive2.jpg?alt=media&token=bb38e484-2c5c-4a79-a51e-c92f7cbf3db7"
+          src="https://firebasestorage.googleapis.com/v0/b/ronald-coppieters.appspot.com/o/public%2Fvintage-hard-drive.jpg?alt=media&token=65963ae1-9c66-45f9-92a9-9c631703e939"
         />
       </v-col>
       <v-col cols="12" sm="6">
-        <section class="pa-3 mb-3">
+        <section class="pa-3 d-flex flex-column fill-height">
           <h3 class="mb-2">
             Java developer creates Rest API because he's fed up with hospital's
             strict yet poorly managed visitor policy
@@ -130,8 +131,15 @@
             <li>Testing: JUnit and Mockito.</li>
             <li>Database: Docker image running MySQL</li>
           </ul>
-          <h6 class="text-right">
-            Read more about it on page 4
+          <p>
+            He has open-sourced his code on
+            <a href="https://github.com/RonaldCoppieters/VisitorAppDemo"
+              >Github</a
+            >.
+          </p>
+          <h6 class="text-right mt-auto">
+            Read more about it on
+            <router-link to="/news/4">Page 4</router-link>
           </h6>
         </section>
       </v-col>

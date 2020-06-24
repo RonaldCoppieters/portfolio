@@ -19,6 +19,10 @@ export default class App extends Vue {}
   font-family: "EB Garamond", serif;
 }
 
+.border-right {
+  border-right: 1px solid black;
+}
+
 .image {
   border: black solid 1px;
 }

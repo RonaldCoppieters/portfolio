@@ -63,7 +63,7 @@
         </v-layout>
       </v-col>
       <v-col cols="12" sm="4">
-        <div>
+        <v-layout fill-height column>
           <h3 class="mb-2">
             "If they're not giving me their data, then I'll just take it by
             force."
@@ -81,10 +81,10 @@
               >Github</a
             >, incase any other students are ever put in a similar situation.
           </p>
-          <h6 class="text-right">
+          <h6 class="text-right mt-auto">
             Return to the <router-link to="/news/1">main page</router-link>
           </h6>
-        </div>
+        </v-layout>
       </v-col>
     </v-row>
   </v-container>
@@ -102,9 +102,3 @@ import NewsBanner from "@/components/NewsBanner.vue";
 })
 export default class News3 extends Vue {}
 </script>
-
-<style lang="scss" scoped>
-.border-right {
-  border-right: 1px solid black;
-}
-</style>
